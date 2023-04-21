@@ -1,0 +1,99 @@
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 50px;
+    box-sizing: border-box;
+    gap: 20px
+}
+
+.fish {
+    flex-basis: 30%;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.fish img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.fish h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.fish .location {
+    margin-top: 10px;
+}
+
+.harvestLocations {
+    flex-basis: 30%;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.harvestLocations .quote {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.harvestLocations .harvestLocation {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.harvestLocations img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.tips {
+    flex-basis: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.tips h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.tips .tipName {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.tips .tipText {
+    margin-top: 10px;
+}
+
+aside {
+    width: 25%;
+    float: right;
+    box-sizing: border-box;
+    background-color: #f1f1f1;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
